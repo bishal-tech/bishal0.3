@@ -1,19 +1,19 @@
-let elem = document.querySelector('.elem')
-let elemimg = document.querySelector('.elem img')
-elem.addEventListener('mousemove', function (dets) {
-    // console.log('hi')
-    let detsY = dets.y + 'px'
-    let detsX = dets.x + 'px'
-    elemimg.style.opacity = 1;
-    elemimg.style.top = detsY;
-    elemimg.style.left = detsX;
+// let elem = document.querySelector('.elem')
+// let elemimg = document.querySelector('.elem img')
+// elem.addEventListener('mousemove', function (dets) {
+//     // console.log('hi')
+//     let detsY = dets.y + 'px'
+//     let detsX = dets.x + 'px'
+//     elemimg.style.opacity = 1;
+//     elemimg.style.top = detsY;
+//     elemimg.style.left = detsX;
 
-})
-elem.addEventListener('mouseleave', function (dets) {
-    // console.log('hi')
-    elemimg.style.opacity = 0;
+// })
+// elem.addEventListener('mouseleave', function (dets) {
+//     // console.log('hi')
+//     elemimg.style.opacity = 0;
 
-})
+// })
 
 // text change effect is here
 const textElement = document.getElementById("profile");

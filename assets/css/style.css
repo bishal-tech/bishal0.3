@@ -70,6 +70,45 @@ h3 {
     height: 100%;
 }
 
+.cta-btn-1 {
+    border: 2px solid var(--dark);
+    color: var(--dark);
+    background-color: var(--white);
+    padding: 10px 40px;
+    display: inline-block;
+
+}
+
+
+.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
 
 /* Nav section start here  */
 .navbar-brand {
@@ -87,6 +126,13 @@ h3 {
 .nav-item a {
     color: var(--dark);
 }
+
+.nav-item ion-icon {
+    font-size: 26px;
+    margin-top: 5px;
+
+}
+
 
 /* INtro section start here  */
 .particles-js {
@@ -149,6 +195,16 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.exp-div h2 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.exp-div h3 {
+    font-size: 15px;
+    margin: 0;
 }
 
 .clients-sec {
