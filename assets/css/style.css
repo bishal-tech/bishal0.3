@@ -321,11 +321,21 @@ h3 {
     right: -2vh;
 }
 
+.f-img6 {
+    bottom: 4vh;
+    left: 0vh;
+}
+
 /* ------  */
 .backend {
     width: 30rem;
     height: 30rem;
     position: relative;
+}
+.backend p{
+    position: absolute;
+    top: 10vh;
+    left: 0;
 }
 
 .b-img1 {
@@ -351,6 +361,11 @@ h3 {
 .b-img5 {
     bottom: 20vh;
     left: -3vh;
+}
+
+.b-img6 {
+    bottom: 20vh;
+    right: -3vh;
 }
 
 
