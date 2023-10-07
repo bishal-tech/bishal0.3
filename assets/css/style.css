@@ -263,6 +263,19 @@ h3 {
     background-color: var(--white);
     padding: 5px;
     border-radius: 20%;
+    animation: techiconRotate 20s linear infinite;
+    
+}
+@keyframes techiconRotate {
+    from {
+        transform: rotate(0deg);
+        /* Start with no rotation */
+    }
+
+    to {
+        transform: rotate(160deg);
+        /* Rotate 360 degrees */
+    }
 }
 
 .d-img {
@@ -275,6 +288,19 @@ h3 {
     width: 8rem;
     height: 8rem;
     position: relative;
+    animation: dsignRotate 18s linear infinite;
+}
+
+@keyframes dsignRotate {
+    from {
+        transform: rotate(0deg);
+        /* Start with no rotation */
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* Rotate 360 degrees */
+    }
 }
 
 .d-img1 {
@@ -293,6 +319,19 @@ h3 {
     width: 20rem;
     height: 20rem;
     position: relative;
+    animation: frontRotate 20s linear infinite;
+}
+
+@keyframes frontRotate {
+    from {
+        transform: rotate(360deg);
+        /* Start with no rotation */
+    }
+
+    to {
+        transform: rotate(0deg);
+        /* Rotate 360 degrees */
+    }
 }
 
 .f-img1 {
@@ -331,8 +370,22 @@ h3 {
     width: 30rem;
     height: 30rem;
     position: relative;
+    animation: backendRotate 30s linear infinite;
 }
-.backend p{
+
+@keyframes backendRotate {
+    from {
+        transform: rotate(0deg);
+        /* Start with no rotation */
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* Rotate 360 degrees */
+    }
+}
+
+.backend p {
     position: absolute;
     top: 10vh;
     left: 0;
