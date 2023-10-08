@@ -5,7 +5,7 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    
+
 
     .backend {
         width: 17rem !important;
@@ -25,6 +25,9 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
 
     .b-img,
     .f-img,
@@ -35,17 +38,22 @@
     .backend {
         width: 22rem;
         height: 22rem;
+        animation: none;
     }
 
     .frontend {
         width: 15rem;
         height: 15rem;
+        animation: none;
     }
 
     .design {
         width: 8rem;
         height: 8rem;
+        animation: none;
     }
+
+
 }
 
 /* // Medium devices (tablets, less than 992px) */
