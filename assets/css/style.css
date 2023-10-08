@@ -24,8 +24,12 @@ a {
     color: var(--dark);
 }
 
+h1 {
+    font-size: 40px;
+}
+
 h2 {
-    font-size: 2vw;
+    font-size: 40px;
     letter-spacing: 3px;
     font-weight: 800;
     color: transparent;
@@ -38,7 +42,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5vw;
+    font-size: 30px;
     letter-spacing: 3px;
     font-weight: 600;
 }
