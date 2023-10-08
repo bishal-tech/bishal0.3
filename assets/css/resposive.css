@@ -38,19 +38,19 @@
     .backend {
         width: 22rem;
         height: 22rem;
-        animation: none;
+        /* animation: none; */
     }
 
     .frontend {
         width: 15rem;
         height: 15rem;
-        animation: none;
+        /* animation: none; */
     }
 
     .design {
         width: 8rem;
         height: 8rem;
-        animation: none;
+        /* animation: none; */
     }
 
 
