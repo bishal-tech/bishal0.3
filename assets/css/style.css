@@ -51,7 +51,10 @@ h3 {
     font-weight: 600;
 }
 
-
+::selection {
+    background-color: var(--dark);
+    color: var(--white);
+}
 
 ::-webkit-scrollbar {
     width: 4px;
@@ -268,6 +271,19 @@ h3 {
 
 
 /* Project section start here  */
+.project-sec {
+    position: relative;
+}
+
+.mouse {
+    /* it must position: fixed; */
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    /* opacity: 0; */
+}
 
 .project-content {
     height: 100%;
