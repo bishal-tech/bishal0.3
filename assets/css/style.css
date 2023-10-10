@@ -210,6 +210,58 @@ h3 {
     }
 }
 
+.pendulam-pic {
+    animation: pendulum 2s infinite;
+
+}
+
+@-webkit-keyframes pendulum {
+    0% {
+        -webkit-transform: rotate(-5deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-5deg);
+    }
+}
+
+@-moz-keyframes pendulum {
+    0% {
+        -moz-transform: rotate(-5deg);
+    }
+
+    50% {
+        -moz-transform: rotate(5deg);
+    }
+
+    100% {
+        -moz-transform: rotate(-5deg);
+    }
+}
+
+@keyframes pendulum {
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+.my-pic {
+    border-radius: 50%;
+}
+
+
 /* Nav section start here  */
 .navbar-brand {
     font-size: 30px;
