@@ -605,7 +605,7 @@ footer {
 }
 
 .about-sec img {
-    width: 55vw;
+    border-radius: 50%;
     filter: grayscale(1);
     transition: all linear 0.3s;
 }
@@ -631,6 +631,9 @@ footer {
     right: 0;
 }
 
+.table-content {
+    position: relative;
+}
 
 
 .table-content .elem {
@@ -668,4 +671,9 @@ footer {
     transform: translate(-50%, -50%);
     object-fit: cover;
     object-position: center;
+}
+
+.yt-videos iframe {
+    width: 60vw;
+    height: 34vw;
 }
