@@ -671,9 +671,24 @@ footer {
     transform: translate(-50%, -50%);
     object-fit: cover;
     object-position: center;
+    opacity: 0;
 }
 
 .yt-videos iframe {
     width: 60vw;
     height: 34vw;
+}
+
+
+/* Acadeny page style is here  */
+
+.couses-box {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.course {
+    margin: auto;
+    max-width: 26rem;
 }
