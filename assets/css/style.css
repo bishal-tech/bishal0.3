@@ -692,3 +692,52 @@ footer {
     margin: auto;
     max-width: 26rem;
 }
+
+
+
+.review-slider {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 2rem;
+}
+
+.review-slide {
+    max-width: 350px;
+    margin: 10px;
+}
+
+.review-text {
+    padding: 20px;
+    background-color: var(--white);
+    position: relative;
+}
+
+.caruv {
+    clip-path: polygon(100% 0, 74% 7%, 54% 14%, 37% 24%, 24% 36%, 15% 55%, 8% 75%, 0 100%, 0 72%, 0 0);
+    height: 30px;
+    width: 53px;
+    background-color: var(--white);
+    position: absolute;
+    bottom: -28px;
+    left: 0px;
+}
+
+.review-img {
+    border-top-left-radius: 54px;
+    margin-top: 10px;
+    /* background-color: var(--dark-grey); */
+    display: flex;
+    align-items: center;
+}
+
+.review-slider img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
